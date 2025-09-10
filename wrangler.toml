@@ -1,0 +1,9 @@
+# ...
+
+# This lines have to be on top level, not under [vars] or any group 
+compatibility_flags = [ "nodejs_compat" ] # Or nodejs_compat_v2
+send_email = [
+    {name = "SEB"}, # Put any name here, can include other parameters as destination_address
+]
+
+# ...
